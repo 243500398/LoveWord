@@ -1,0 +1,6 @@
+pod 'AFNetworking', '~> 3.0.4'
+platform:ios, '7.0'
+pod 'MJExtension', '~> 3.0.9'
+pod 'SDWebImage', '~> 3.7.4'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'FMDB', '~> 2.6'

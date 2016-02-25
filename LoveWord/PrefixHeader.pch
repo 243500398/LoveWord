@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  LoveWord
+//
+//  Created by xiongchao on 16/1/11.
+//  Copyright © 2016年 xiongchao. All rights reserved.
+//
+
+
+/*
+ id(id),word(单词),gqs(过去式),gqfc(过去分词),xzfc(现在分词),fs(复数形式),meaning(英文例句),lx(例句的中文翻译)
+ */
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define MainColor [UIColor colorWithRed:0.9947 green:0.0592 blue:0.0368 alpha:1.0]
+//沙盒
+#define SANDBOX [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+#define HomeUrlStr @"http://english.avosapps.com/feed?"
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MJExtension.h"
+#import "TipView.h"
+#import "FMDB.h"
+#import "FMDBService.h"
+#import "HttpService.h"
+#import "OtherHelper.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
